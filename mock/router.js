@@ -5,7 +5,7 @@ const Random = Mock.Random;
 
 export default [
   {
-    url: "/dev-api/getRouters",
+    url: "/getRouters",
     type: "get",
     response: () => {
       return {

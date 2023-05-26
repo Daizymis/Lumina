@@ -5,7 +5,7 @@ const Random = Mock.Random;
 
 export default [
   {
-    url: "/dev-api/system/user/list",
+    url: "/system/user/list",
     type: "get",
     response: () => {
       return {
@@ -106,7 +106,7 @@ export default [
     },
   },
   {
-    url: "/dev-api/system/dict/data/type/sys_normal_disable",
+    url: "/system/dict/data/type/sys_normal_disable",
     type: "get",
     response: () => {
       return {
@@ -152,7 +152,7 @@ export default [
     },
   },
   {
-    url: "/dev-api/system/dict/data/type/sys_user_sex",
+    url: "/system/dict/data/type/sys_user_sex",
     type: "get",
     response: () => {
       return {
@@ -215,7 +215,7 @@ export default [
     },
   },
   {
-    url: "/dev-api/system/user/deptTree",
+    url: "/system/user/deptTree",
     type: "get",
     response: () => {
       return {

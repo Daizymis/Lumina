@@ -20,9 +20,10 @@ $base-logo-light-title-color: #001529;
 
 $base-sub-menu-background: #1f2d3d;
 $base-sub-menu-hover: #001528;
+$menuActiveBack:#ffd04b;
 
 // 自定义暗色菜单风格
-/**
+
 $base-menu-color:hsla(0,0%,100%,.65);
 $base-menu-color-active:#fff;
 $base-menu-background:#001529;
@@ -34,7 +35,8 @@ $base-logo-light-title-color: #001529;
 
 $base-sub-menu-background:#000c17;
 $base-sub-menu-hover:#001528;
-*/
+$menuActiveLightBack:#e6f7ff;
+
 
 $--color-primary: #409EFF;
 $--color-success: #67C23A;

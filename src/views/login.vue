@@ -126,13 +126,13 @@ function handleLogin() {
 }
 
 function getCode() {
-  getCodeImg().then(res => {
+  /*getCodeImg().then(res => {
     captchaEnabled.value = res.captchaEnabled === undefined ? true : res.captchaEnabled;
     if (captchaEnabled.value) {
       codeUrl.value = "data:image/gif;base64," + res.img;
       loginForm.value.uuid = res.uuid;
     }
-  });
+  });*/
 }
 
 function getCookie() {

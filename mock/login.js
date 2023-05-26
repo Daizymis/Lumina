@@ -5,21 +5,21 @@ const Random = Mock.Random;
 
 export default [
   {
-    url: "/dev-api/login",
+    url: "/login",
     type: "post",
     response: () => {
       return { msg: "操作成功", code: 200, token: "eyJhbGciOiJIUzUxMi" };
     },
   },
   {
-    url: "/dev-api/logout",
+    url: "/logout",
     type: "post",
     response: () => {
       return { msg: "操作成功", code: 200, token: "eyJhbGciOiJIUzUxMi" };
     },
   },
   {
-    url: "/dev-api/getInfo",
+    url: "/getInfo",
     type: "get",
     response: () => {
       return {
